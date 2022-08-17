@@ -7,7 +7,7 @@
                     <div class="col-lg-12 col-md-9 col-12">
                         <div class="hero-content">
                             <span class="sub_title text-uppercase wow fadeInLeft" data-wow-delay=".3s">Simple. Transparent. Secure</span>
-                            <h1 class="text-uppercase wow fadeInLeft" data-wow-delay=".6s">eLoan Banking</h1>
+                            <h1 class="text-uppercase wow fadeInLeft" data-wow-delay=".6s">SUPER CASH</h1>
                             <h3 class="wow fadeInLeft" data-wow-delay=".9s">You can achieve your financial goals</h3>
                             <div class="hero-btn mt-40">
                                 <a class="btn btn-one wow fadeInLeft" data-wow-delay="1.2s" href="route('about')">Get More Info <i class="lni lni-angle-double-right"></i></a>
@@ -28,10 +28,10 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="about-img mt-50">
                         <div class="wow fadeInLeft" data-wow-delay=".6s">
-                            <img src="{{ asset('assets/images/about/about.png')}}" alt="about image">
+                            <img src="{{ asset('assets/images/about/about.jpg')}}" alt="about image">
                         </div>
                         <div class="experience wow fadeInRight" data-wow-delay=".6s">
-                            <h5>25+</h5>
+                            <h5>4+</h5>
                             <h6>Years of Experience</h6>
                         </div>
                     </div>
@@ -41,9 +41,9 @@
                         <div class="card-body">
                             <div class="section-title mb-30 wow fadeInRight" data-wow-delay=".6s">
                                 <h6 class="card-subtitle">ABOUT COMPANY</h6>
-                                <h2 class="card-title">Small Business Loans For a Daily Expenses</h2>
-                                <p class="card-text">We are giving you the loan for Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore t dolore magna aliqua. Ut enim ad minim veniam quis..</p>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.</p>
+                                <h2 class="card-title">SUPER CASH</h2>
+                                <p class="card-text">Super cash started in 2018 with one branch in Bukedea dealing in salary & Business loans. The interest rates are 10% and 15% respecbly.. </p>
+                                <p>The company has now grown to 10 branches located in Bukedea, Moroto, Mbale, Soroti, KATAKWI, Dokolo, kaberemaido kumi palisa and kotido. Cash 247.</p>
                             </div>
                             <div class="row g-0">
                                 <div class="col-md-3 wow fadeInLeft" data-wow-delay=".6s">
@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="col-md-9 wow fadeInRight" data-wow-delay=".6s">
                                     <div class="card-body about-list-text bg-dark d-flex justify-content-center align-items-center">
-                                        <h5>we are trusted by more than 8,700 clients</h5>
+                                        <h5>we are trusted by more than 500 clients</h5>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                                     <i class="lni lni-users"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>785</h3>
+                                    <h3>200</h3>
                                 </div>
                                 <p>Happy Clients</p>
                             </div>
@@ -137,7 +137,7 @@
                                     <i class="lni lni-investment"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>10,524M</h3>
+                                    <h3>Enough($)</h3>
                                 </div>
                                 <p>Investments</p>
                             </div>
@@ -150,9 +150,9 @@
                                     <i class="lni lni-cup"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>199</h3>
+                                    <h3>Enough</h3>
                                 </div>
-                                <p>Award Achivement</p>
+                                <p>Achivements</p>
                             </div>
                         </div>
                     </div>
@@ -291,126 +291,7 @@
 
 
 
-    <!-- Testimonial start -->
-    <section id="testimonial-section" class="mt-115">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="section-title testimonial-title">
-                        <h6>Press Coverage</h6>
-                        <h2>What our clients say about us.</h2>
-                        <p>Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. feugiat ultricies.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row testimonial-slider">
-                <div class="col-lg-4">
-                    <div class="mt-20">
-                        <div class="card testimonial-item">
-                            <div class="card-body testimonial-body">
-                                <div class="d-lg-flex align-items-lg-center justify-content-lg-between d-sm-flex align-items-sm-center justify-content-sm-between testimonial-img-item mb-20">
-                                    <div class="testimonial-img">
-                                        <img src="{{ asset('assets/images/testimonial/1.jpg')}}" alt="">
-                                    </div>
-                                    <div class="testimonial-author">
-                                        <h5>Rebel Carbscop</h5>
-                                        <span>Sr. Consultant</span>
-                                    </div>
-                                    <div class="testimonial-rating">
-                                        <ul class="d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="d-flex mt-50 testimonial-content">
-                                    <div class="testimonial-quote d-none d-md-block d-lg-block d-xl-block">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. feugiat ultricies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mt-20">
-                        <div class="card testimonial-item">
-                            <div class="card-body testimonial-body">
-                                <div class="d-lg-flex align-items-lg-center justify-content-lg-between d-sm-flex align-items-sm-center justify-content-sm-between testimonial-img-item mb-20">
-                                    <div class="testimonial-img">
-                                        <img src="{{ asset('assets/images/testimonial/1.jpg')}}" alt="">
-                                    </div>
-                                    <div class="testimonial-author">
-                                        <h5>Rebel Carbscop</h5>
-                                        <span>Sr. Consultant</span>
-                                    </div>
-                                    <div class="testimonial-rating">
-                                        <ul class="d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="d-flex mt-50 testimonial-content">
-                                    <div class="testimonial-quote d-none d-md-block d-lg-block d-xl-block">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. feugiat ultricies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mt-20">
-                        <div class="card testimonial-item">
-                            <div class="card-body testimonial-body">
-                                <div class="d-lg-flex align-items-lg-center justify-content-lg-between d-sm-flex align-items-sm-center justify-content-sm-between testimonial-img-item mb-20">
-                                    <div class="testimonial-img">
-                                        <img src="{{ asset('assets/images/testimonial/1.jpg')}}" alt="">
-                                    </div>
-                                    <div class="testimonial-author">
-                                        <h5>Rebel Carbscop</h5>
-                                        <span>Sr. Consultant</span>
-                                    </div>
-                                    <div class="testimonial-rating">
-                                        <ul class="d-flex">
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
 
-                                <div class="d-flex mt-50 testimonial-content">
-                                    <div class="testimonial-quote d-none d-md-block d-lg-block d-xl-block">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="testimonial-text">
-                                        <p>Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. feugiat ultricies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial end -->
 
     <!-- Blog Start -->
     <section id="blog-section" class="mt-145">

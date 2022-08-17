@@ -23,8 +23,7 @@
                             <thead>
                                 <tr>
                                     <th>OrderId</th>
-                                    <th>Image</th>
-                                    <th>Project-Name</th>
+                                    <th>Service-Name</th>
                                     <th>Price</th>
                                     <th>First Name</th>
                                     <th>Last Name</th>
@@ -42,8 +41,7 @@
                                 @foreach ($orders as $order)
                                     <tr>
                                         <td>{{ $order->id }}</td>
-                                        <td><img src="{{ asset('images/projects') }}/{{ $order->image }}" width="60" alt="{{ $order->name }}"></td>
-                                        <td>{{ $order->name }}</td>
+                                        <td>{{ $order->category }}</td>
                                         <td>UGx{{ $order->price }}</td>
                                         <td>{{ $order->firstname }}</td>
                                         <td>{{ $order->lastname }}</td>

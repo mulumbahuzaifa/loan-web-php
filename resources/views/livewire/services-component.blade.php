@@ -53,68 +53,68 @@
     </section>
     <!-- Service End -->
 
-    <!-- Counter Start -->
-    <section id="counter-section" class="bg-prefix mt-120">
-        <div class="overlay-2">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-3 col-12">
-                        <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="card-body">
-                                <div class="counter-icon">
-                                    <i class="lni lni-thumbs-up"></i>
-                                </div>
-                                <div class="counter-title">
-                                    <h3>100%</h3>
-                                </div>
-                                <p>Success Rate</p>
+ <!-- Counter Start -->
+ <section id="counter-section" class="bg-prefix mt-120">
+    <div class="overlay-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card-body">
+                            <div class="counter-icon">
+                                <i class="lni lni-thumbs-up"></i>
                             </div>
+                            <div class="counter-title">
+                                <h3>100%</h3>
+                            </div>
+                            <p>Success Rate</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                        <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="card-body">
-                                <div class="counter-icon">
-                                    <i class="lni lni-users"></i>
-                                </div>
-                                <div class="counter-title">
-                                    <h3>785</h3>
-                                </div>
-                                <p>Happy Clients</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card-body">
+                            <div class="counter-icon">
+                                <i class="lni lni-users"></i>
                             </div>
+                            <div class="counter-title">
+                                <h3>200</h3>
+                            </div>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                        <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".6s">
-                            <div class="card-body">
-                                <div class="counter-icon">
-                                    <i class="lni lni-investment"></i>
-                                </div>
-                                <div class="counter-title">
-                                    <h3>10,524M</h3>
-                                </div>
-                                <p>Investments</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="card-body">
+                            <div class="counter-icon">
+                                <i class="lni lni-investment"></i>
                             </div>
+                            <div class="counter-title">
+                                <h3>Enough($)</h3>
+                            </div>
+                            <p>Investments</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                        <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".6s">
-                            <div class="card-body">
-                                <div class="counter-icon">
-                                    <i class="lni lni-cup"></i>
-                                </div>
-                                <div class="counter-title">
-                                    <h3>199</h3>
-                                </div>
-                                <p>Award Achivement</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card counter-item text-center mt-15 mb-15 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="card-body">
+                            <div class="counter-icon">
+                                <i class="lni lni-cup"></i>
                             </div>
+                            <div class="counter-title">
+                                <h3>Enough</h3>
+                            </div>
+                            <p>Achivements</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Counter End -->
+    </div>
+</section>
+<!-- Counter End -->
 
    <!-- Loan Process Start -->
    <section id="loan-process-section" class="mt-115">

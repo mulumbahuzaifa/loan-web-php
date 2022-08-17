@@ -23,10 +23,7 @@ class AdminEditProjectsComponent extends Component
     public $short_description;
     public $description;
     public $category_id;
-    public $images;
-    public $bgImage;
-    public $newBgImage;
-    public $duration;
+    public $project_id;
 
     public function mount($project_slug){
         $project = Project::where('slug', $project_slug)->first();
@@ -34,8 +31,6 @@ class AdminEditProjectsComponent extends Component
         $this->slug = $project->slug;
         $this->price = $project->price;
         $this->image = $project->image;
-        $this->bgImage = $project->bgImage;
-        $this->duration = $project->duration;
         $this->featured = $project->featured;
         $this->short_description = $project->short_description;
         $this->description = $project->description;
@@ -76,24 +71,8 @@ class AdminEditProjectsComponent extends Component
             $project->image = $imageName;
         }
 
-        if ($this->newBgImage) {
-            $imageName2 = Carbon::now()->timestamp. '.'. $this->newBgImage->extension();
-            $this->newBgImage->storeAs('projectBG',$imageName2 );
-            $project->bgImage = $imageName2;
-        }
 
-
-        if ($this->images) {
-            $imagesName = "";
-            foreach($this->images as $key=>$image){
-                $imgName = Carbon::now()->timestamp. $key.'.'. $image->extension();
-                $image->storeAs('projects', $imgName);
-                $imagesName = $imageName . ',' . $imgName;
-            }
-            $project->images = $imagesName;
-        }
         $project->featured = $this->featured;
-        $project->duration = $this->duration;
         $project->short_description = $this->short_description;
         $project->description = $this->description;
         $project->save();

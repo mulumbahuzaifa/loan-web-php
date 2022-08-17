@@ -37,7 +37,7 @@ display: block !important;
               Edit Branch
           </div>
           <div class="col-md-6">
-              <a href="{{ route('admin.branches') }}" style="color: whitesmoke" class="btn btb-success pull-right"> All Branches</a>
+              <a href="{{ route('admin.branches') }}" style="color: whitesmoke" class="btn btn-success pull-right"> All Branches</a>
           </div>
       </div>
   </div>

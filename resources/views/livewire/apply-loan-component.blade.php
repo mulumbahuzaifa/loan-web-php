@@ -214,12 +214,8 @@
                                             <label for="exampleFormControlInput7" class="form-label">Rate <span>*</span></label>
                                             <select class="form-select" aria-label="Default select example" id="exampleFormControlInput7" wire:model="rate">
                                                 <option selected value="">Select Rate</option>
-                                                <option  value="5">5%</option>
-                                                <option value="6">6%</option>
-                                                <option value="7">7%</option>
-                                                <option value="8">8%</option>
-                                                <option value="9">9%</option>
                                                 <option value="10">10%</option>
+                                                <option value="10">15%</option>
                                             </select>
                                         </div>
                                         @error('rate')
@@ -255,7 +251,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="online-form-right mt-60">
+                    {{-- <div class="online-form-right mt-60">
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="text-light">Preview of Calculation</h4>
@@ -279,7 +275,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

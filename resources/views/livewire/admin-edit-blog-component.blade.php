@@ -37,7 +37,7 @@
                                 Edit Blog
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('admin.blogs') }}" style="color: whitesmoke"  class="btn btb-success pull-right"> All Blogs</a>
+                                <a href="{{ route('admin.blogs') }}" style="color: whitesmoke"  class="btn btn-success pull-right"> All Blogs</a>
                             </div>
                         </div>
                     </div>

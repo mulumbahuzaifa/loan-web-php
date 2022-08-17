@@ -145,9 +145,9 @@
                     <div class="col-lg-5 my-3">
                         <div class="g-map">
                             <div class="card card-body">
-                                <div class="ratio ratio-1x1">
+                                {{-- <div class="ratio ratio-1x1">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004066.00814038!2d-104.65581234446189!3d37.275676226127175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1620215274393!5m2!1sen!2sin"></iframe>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

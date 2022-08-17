@@ -37,7 +37,7 @@
                                 Add New Category
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('admin.categories') }}" style="color: whitesmoke" class="btn btb-success pull-right"> All Categories</a>
+                                <a href="{{ route('admin.categories') }}" style="color: whitesmoke" class="btn btn-success pull-right"> All Categories</a>
                             </div>
                         </div>
                     </div>

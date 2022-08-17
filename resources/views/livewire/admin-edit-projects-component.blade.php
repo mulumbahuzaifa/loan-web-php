@@ -37,7 +37,7 @@
                                 Edit Project
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('admin.projects') }}" style="color: whitesmoke"  class="btn btb-success pull-right"> All Projects</a>
+                                <a href="{{ route('admin.projects') }}" style="color: whitesmoke"  class="btn btn-success pull-right"> All Projects</a>
                                 <a href="{{ route('admin.amenities', ['project_slug'=> $project->slug]) }}" class="btn btb-success pull-right" > Project Amenities</a>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                             <div class="p-2 form-group border">
                                 <label for="" class="col-md-8 control-lable">Project Name</label>
                                 <div class="col-md-8">
-                                    <input type="text" placeholder="Project Name" class="form-control input-md" wire:model="name" wire:keyup="generateslug">
+                                    <input type="text" placeholder="Project Name" class="form-control input-md" wire:model="name" wire:keyup="generateSlug">
                                     @error('name')
                                     <p class="text-danger">{{ $message }}</p>
                                 @enderror

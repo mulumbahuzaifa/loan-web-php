@@ -37,7 +37,7 @@
                                 Add New Service
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('admin.projects') }}" style="color: whitesmoke"  class="btn btb-success pull-right"> All Products</a>
+                                <a href="{{ route('admin.projects') }}" style="color: whitesmoke"  class="btn btn-success pull-right"> All Products</a>
                             </div>
                         </div>
                     </div>
@@ -47,18 +47,18 @@
                     <div class="panel-body">
                         <form action="" class="form-horizontal" enctype="multipart/form-data" wire:submit.prevent="addProject">
                             <div class="p-2 form-group border">
-                                <label for="" class="col-md-8 control-label"><h4>Project Name</h4></label>
+                                <label for="" class="col-md-8 control-label"><h4>Service Name</h4></label>
                                 <div class="col-md-8">
-                                    <input type="text" placeholder="Project Name" class="form-control input-md" wire:model="name" wire:keyup="generateslug">
+                                    <input type="text" placeholder="Service Name" class="form-control input-md" wire:model="name" wire:keyup="generateslug">
                                     @error('name')
                                     <p class="text-danger">{{ $message }}</p>
                                 @enderror
                                 </div>
                             </div>
                             <div class=" p-2 form-group border">
-                                <label for="" class="col-md-8 control-label"><h4>Project Slug</h4></label>
+                                <label for="" class="col-md-8 control-label"><h4>Service Slug</h4></label>
                                 <div class="col-md-8">
-                                    <input type="text" placeholder="Project Slug" class="form-control input-md" wire:model="slug">
+                                    <input type="text" placeholder="Service Slug" class="form-control input-md" wire:model="slug">
                                     @error('slug')
                                     <p class="text-danger">{{ $message }}</p>
                                 @enderror

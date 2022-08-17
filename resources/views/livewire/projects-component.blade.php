@@ -26,12 +26,12 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="project-title section-title mb-20 wow fadeInLeft" data-wow-delay=".2s">
-                        <h2>1000+ Projects Completed With Absolute Quality </h2>
+                        <h2>200+ Projects Completed With Absolute Quality </h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="project-desc">
-                        <p class="wow fadeInLeft" data-wow-delay=".4s">Create new products, reduce cost and risk, and enable the manufacturing. Innovations enabled by the Steeler institutes results in products that assist workers.</p>
+                        {{-- <p class="wow fadeInLeft" data-wow-delay=".4s">Create new products, reduce cost and risk, and enable the manufacturing. Innovations enabled by the Steeler institutes results in products that assist workers.</p> --}}
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                                     <i class="lni lni-users"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>785</h3>
+                                    <h3>200</h3>
                                 </div>
                                 <p>Happy Clients</p>
                             </div>
@@ -98,7 +98,7 @@
                                     <i class="lni lni-investment"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>10,524M</h3>
+                                    <h3>Enough($)</h3>
                                 </div>
                                 <p>Investments</p>
                             </div>
@@ -111,9 +111,9 @@
                                     <i class="lni lni-cup"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>199</h3>
+                                    <h3>Enough</h3>
                                 </div>
-                                <p>Award Achivement</p>
+                                <p>Achivements</p>
                             </div>
                         </div>
                     </div>

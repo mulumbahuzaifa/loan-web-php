@@ -21,7 +21,7 @@
                                 Add New Amenity
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('admin.amenities', ['project_slug'=> $project->slug]) }}" class="btn btb-success pull-right"> All {{ $project->name }} Amenities</a>
+                                <a href="{{ route('admin.amenities', ['project_slug'=> $project->slug]) }}" class="btn btn-success pull-right"> All {{ $project->name }} Amenities</a>
                             </div>
                         </div>
                     </div>

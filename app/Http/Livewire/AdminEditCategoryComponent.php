@@ -18,7 +18,6 @@ class AdminEditCategoryComponent extends Component
         $category = Category::where('slug', $category_slug)->first();
         $this->category_id = $category->id;
         $this->name = $category->name;
-        $this->type = $category->type;
         $this->slug = $category->slug;
     }
     public function generateslug(){
