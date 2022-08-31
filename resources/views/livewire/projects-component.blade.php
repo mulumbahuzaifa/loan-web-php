@@ -21,19 +21,19 @@
     <!-- Banner End -->
 
     <!-- Project Start -->
-    <section id="project-section" class="mt-110">
+    <section id="project-section" class="mt-60">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-12 col-md-12">
                     <div class="project-title section-title mb-20 wow fadeInLeft" data-wow-delay=".2s">
-                        <h2>200+ Projects Completed With Absolute Quality </h2>
+                        <h4>200+ Projects Completed With Absolute Quality </h4>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                {{-- <div class="col-lg-6 col-md-6">
                     <div class="project-desc">
-                        {{-- <p class="wow fadeInLeft" data-wow-delay=".4s">Create new products, reduce cost and risk, and enable the manufacturing. Innovations enabled by the Steeler institutes results in products that assist workers.</p> --}}
+                        <p class="wow fadeInLeft" data-wow-delay=".4s">Create new products, reduce cost and risk, and enable the manufacturing. Innovations enabled by the Steeler institutes results in products that assist workers.</p>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="project-list">
@@ -85,7 +85,7 @@
                                     <i class="lni lni-users"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>200</h3>
+                                    <h3>200+</h3>
                                 </div>
                                 <p>Happy Clients</p>
                             </div>
@@ -124,7 +124,8 @@
     <!-- Counter End -->
 
        <!-- Loan Process Start -->
-       <section id="loan-process-section" class="mt-115">
+       <section id="loan-process-section">
+        <div class="overlay-1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -210,6 +211,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!-- Loan Process End -->
 </div>

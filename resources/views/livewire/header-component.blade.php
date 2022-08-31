@@ -16,10 +16,10 @@
                             </button>
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 @php
-                                $navlinks = array ( 'products' => 'Products', 'agri-inputs' => 'Agri-Inputs', 'blogs' => 'Blogs', 'contact-us' => 'Contact Us');
-                                $current_page = substr($_SERVER['REQUEST_URI'], 1);  // trim off the leading slash
-                                $current_page = str_replace('.php', '', $current_page);  // trim off the extension
-                            @endphp
+                                    $navlinks = array ( 'products' => 'Products', 'agri-inputs' => 'Agri-Inputs', 'blogs' => 'Blogs', 'contact-us' => 'Contact Us');
+                                    $current_page = substr($_SERVER['REQUEST_URI'], 1);  // trim off the leading slash
+                                    $current_page = str_replace('.php', '', $current_page);  // trim off the extension
+                                @endphp
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
                                         <a href="/" class="{{ $current_page == '' ? 'active': '' }}" aria-label="Toggle navigation">Home</a>

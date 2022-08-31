@@ -8,9 +8,9 @@
                         <div class="hero-content">
                             <span class="sub_title text-uppercase wow fadeInLeft" data-wow-delay=".3s">Simple. Transparent. Secure</span>
                             <h1 class="text-uppercase wow fadeInLeft" data-wow-delay=".6s">SUPER CASH</h1>
-                            <h3 class="wow fadeInLeft" data-wow-delay=".9s">You can achieve your financial goals</h3>
+                            <h3 class="wow fadeInLeft" data-wow-delay=".9s">We offer Fastest Disbursals, Flexible Repayment plans and Pocket Friendly Plans to meet financial needs at every stage in life.</h3>
                             <div class="hero-btn mt-40">
-                                <a class="btn btn-one wow fadeInLeft" data-wow-delay="1.2s" href="route('about')">Get More Info <i class="lni lni-angle-double-right"></i></a>
+                                <a class="btn btn-one wow fadeInLeft" data-wow-delay="1.2s" href="route('about')">More AboutUS <i class="lni lni-angle-double-right"></i></a>
                                 {{-- <a class="btn btn-two glightbox video-button wow fadeInLeft" data-wow-delay="1.5s" href="https://www.youtube.com/watch?v=UwPrJmOxPeI"><i class="lni lni-play"></i><span class="text">Watch our intro video</span></a> --}}
                             </div>
                         </div>
@@ -22,7 +22,7 @@
     <!-- Hero End -->
 
     <!-- About Start -->
-    <section id="about-section" class="mt-70">
+    <section id="about-section" class="mt-50">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="col-md-9 wow fadeInRight" data-wow-delay=".6s">
                                     <div class="card-body about-list-text bg-dark d-flex justify-content-center align-items-center">
-                                        <h5>we are trusted by more than 500 clients</h5>
+                                        <h5>we are trusted by more than 200 clients</h5>
                                     </div>
                                 </div>
                             </div>
@@ -65,6 +65,14 @@
     </section>
     <!-- About End -->
 
+    @php
+        $icons = ['001-computer.png', '002-consultation.png', '003-operator.png', '005-customer-feedback.png', '006-suitcase.png', '008-star.png'];
+
+        $chosen_icon = array_rand($icons, 1);
+        $i = 0;
+        $i >= 0;
+        $i < 6;
+    @endphp
     <!-- Service Start -->
     <section id="service-section" class="mt-85">
         <div class="container">
@@ -78,7 +86,22 @@
                                     <div class="card-body service-body">
                                         <div class="">
                                             {{-- <i class="flaticon-suitcase"></i> --}}
-                                            <img src="{{ asset('assets/images/flaticons/006-suitcase.png') }}" alt="" width="60">
+                                            {{-- <img src="{{ asset('assets/images/flaticons') }}/{{ $icons[$chosen_icon] }}" alt="" width="60"> --}}
+
+                                            {{-- @for (end($icons); key($icons)!==null; prev($icons))
+                                                @php
+                                                    $currentElement = current($icons);
+                                                @endphp
+                                                <p>{{ $currentElement }}</p>
+
+                                            @endfor --}}
+                                            @if ($i >= 0 && $i < 6)
+
+                                                <img src="{{ asset('assets/images/flaticons') }}/{{ $icons[$i++] }}" alt="" width="60">
+                                            @elseif ($i = 5)
+                                                <img src="{{ asset('assets/images/flaticons') }}/{{ $icons[$i--] }}" alt="" width="60">
+                                            @endif
+
                                         </div>
                                         <h5><a href="{{ route('project.detail',['slug' =>$project->slug]) }}">{{ $project->name }}</a></h5>
                                         <p>{!! str_limit(strip_tags($project->description),100,'...')  !!}</p>
@@ -124,7 +147,7 @@
                                     <i class="lni lni-users"></i>
                                 </div>
                                 <div class="counter-title">
-                                    <h3>200</h3>
+                                    <h3>200+</h3>
                                 </div>
                                 <p>Happy Clients</p>
                             </div>
@@ -183,7 +206,7 @@
                 <div class="row">
                     @foreach ($loans as $loan)
                     <div class="col-lg-4 col-md-6">
-                        <div class="card project-item mt-50 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card project-item mt-30 wow fadeInUp" data-wow-delay=".3s">
                             <img src="{{ asset('assets/images/projects')}}/{{ $loan->image }}" class="card-img-top" alt="{{ $loan->name }}">
                             <div class="card-body project-body">
                                 <p class="card-text">Funding</p>
@@ -200,7 +223,8 @@
     <!-- Project End -->
 
     <!-- Loan Process Start -->
-    <section id="loan-process-section" class="mt-115">
+    <section id="loan-process-section" class="mt-80">
+        <div class="overlay-1 ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -286,6 +310,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!-- Loan Process End -->
 
@@ -294,7 +319,7 @@
 
 
     <!-- Blog Start -->
-    <section id="blog-section" class="mt-145">
+    <section id="blog-section" class="mt-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -319,7 +344,7 @@
                                 </div>
                                 <div class="blog-title mt-10">
                                     <a href="{{ route('blog.details', ['slug' => $blog->slug]) }}">
-                                        <h4 class="card-title" style="text-transform: capitalize;">{{ $blog->name }}</h4>
+                                        <h4 class="card-title" style="text-transform: capitalize;">{{ str_limit(strip_tags($blog->name),30,'...') }}</h4>
                                     </a>
                                 </div>
                                 <div class="blog-btn mt-10">

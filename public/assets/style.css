@@ -1088,6 +1088,13 @@ th {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#loan-process-section {
+    background: url(images/tractor-on-a-farm.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #banner-section .overlay {
     background: linear-gradient(
@@ -1095,16 +1102,16 @@ th {
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.5)
     );
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
 .overlay-1 {
     background: linear-gradient(
         to right,
-        rgba(255, 255, 255, 1),
-        rgba(255, 255, 255, 0.5)
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.4)
     );
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .overlay-2 {
@@ -1125,6 +1132,12 @@ th {
 
 #banner-section ul li a.active {
     color: var(--main-color-one);
+}
+
+#banner-section p {
+    padding: 5px 0;
+    font-size: 20px;
+    color: rgb(48, 76, 231);
 }
 
 /* One Click Scrool Top Button*/
@@ -1268,7 +1281,7 @@ th {
         color: var(--main-color-one);
     }
     .header .navbar-nav .nav-item a {
-        padding: 10px 16px !important;
+        padding: 10px 10px !important;
     }
     .header .navbar-nav .nav-item a::before {
         display: none;
@@ -1584,7 +1597,7 @@ th {
 .navbar-nav .nav-item {
     z-index: 1;
     position: relative;
-    margin-right: 45px;
+    margin-right: 40px;
 }
 
 .navbar-nav .nav-item:last-child {
@@ -1809,7 +1822,7 @@ th {
 
 .hero-area.style1 .hero-overlay {
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .hero-area .hero-content {
@@ -2310,7 +2323,7 @@ th {
 .project-item .card-img,
 .card-img-top {
     border-radius: 0;
-    height: 400px;
+    height: 350px;
 }
 
 .project-item .project-body {
@@ -2455,7 +2468,7 @@ th {
     content: "";
     top: 50%;
     left: 120px;
-    width: 80px;
+    width: 120px;
     border: 1px solid var(--main-color-one);
     z-index: -1;
 }
@@ -2861,6 +2874,9 @@ th {
 
 .blog-item .blog-body {
     padding: 0;
+}
+.blog-item img {
+    height: 220px;
 }
 
 .blog-item .blog-subtitle a {
@@ -3283,7 +3299,9 @@ th {
 
 .contact-info-item {
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: rgb(190, 190, 190);
     padding: 30px;
+    min-height: 300px;
 }
 
 .contact-info-icon i {
@@ -3362,4 +3380,14 @@ th {
 .author-thumb img {
     height: 70px;
     width: 70px;
+}
+
+.icon-wrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background: #f8d83f;
+    padding: 10px;
+    -webkit-flex-shrink: 0;
+    box-shadow: 0 3px 6px #f0f4fc;
 }

@@ -19,7 +19,15 @@
         </div>
     </section>
     <!-- Banner End -->
+    @php
+        $icons = ['Personal-loan.svg', 'House-Owner-loan-1.svg','Rental-Deposite-1.svg', 'Premium-Bike.svg','MSME-loan.svg', 'Working-Capital.svg', 'Customized-PL.svg','WEDDING.svg', 'Personal-Overdraft.svg', 'Travel.svg','Customized-PL.svg', 'Transparent-Process.svg', 'Electric-two-wheeler-loan.svg','User-friendly.svg','Premium-Bike.svg','Medical.svg', 'Steps-Desktop.svg'];
 
+        $chosen_icon = array_rand($icons, 1);
+        $icons_count = count($icons) -1;
+        $i = 0;
+        $i >= 0;
+        $i < 6;
+    @endphp
     <!-- Service Start -->
     <section id="service-section" class="mt-85">
         <div class="container">
@@ -32,9 +40,17 @@
                                 <div class="card service-item mt-25 wow fadeInUp" data-wow-delay=".2s" style="height: 280px; margin: 20px 0px;">
                                     <div class="card-body service-body">
                                         <div class="">
-                                            <img src="{{ asset('assets/images/flaticons/006-suitcase.png') }}" alt="" width="60">
+                                            {{-- <img src="{{ asset('assets/images/flaticons/006-suitcase.png') }}" alt="" width="60"> --}}
                                             {{-- <i class="flaticon-suitcase"></i> --}}
                                         </div>
+                                        <div class="icon-wrapper me-3 me-md-0 mb-3 no-margin-top no-margin-left d-flex align-items-center justify-content-center">
+                                            {{-- <img alt="{{ $project->name }}" class="img-fluid" width="40" src="{{ asset('assets/images/uploads') }}/{{ $icons[$i++] }}"> --}}
+                                            @if ($i >= 0 && $i <= $icons_count)
+                                            <img alt="{{ $project->name }}" class="img-fluid" width="40" src="{{ asset('assets/images/uploads') }}/{{ $icons[$i++] }}">
+                                            @else
+                                            <img alt="{{ $project->name }}" class="img-fluid" width="40" src="{{ asset('assets/images/uploads') }}/{{ $icons[$i-$icons_count--] }}">
+                                            @endif
+                                          </div>
                                         <h5><a href="{{ route('project.detail',['slug' =>$project->slug]) }}">{{ $project->name }}</a></h5>
                                         <p>{!! str_limit(strip_tags($project->description),100,'...')  !!}</p>
                                         <div class="service-shape">

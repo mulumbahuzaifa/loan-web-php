@@ -13,6 +13,7 @@
                                 <li><a class=""> - </a></li>
                                 <li><a class="active" href="#!">Contact</a></li>
                             </ul>
+                            <p>We will be digitally connected and at your service whenever you need us!!</p>
                         </div>
                     </div>
                 </div>
@@ -21,7 +22,7 @@
         <!-- Banner End -->
 
         <!-- Contact Info Start -->
-        <section id="contact-info-section" class="mt-100">
+        <section id="contact-info-section" class="mt-50">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-lg-4 col-md-6">
@@ -74,18 +75,18 @@
         <!-- Contact Info End -->
 
         <!-- Contact Start -->
-        <section id="contact-form-section" class="mt-120">
+        <section id="contact-form-section" class="mt-50">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div class="section-title text-center mb-50">
+                    <div class="col-lg-12 offset-lg-1">
+                        <div class="section-title text-center mb-20">
                             <h6>Book Appoinment Now!</h6>
                             <h2>Have Queries Before the Appointment?</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 my-3">
+                    <div class="col-lg-12 my-3">
                         <div class="card contact-form">
                             <div class="card-body">
                                 @if (Session::has('message'))
